@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Abhishek5101/gif-search-node#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0"
   }
 }
