@@ -19,6 +19,8 @@ app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
 
+app.use(express.static('public'));
+
 // Routes
 app.get('/', (req, res) => {
     // Handle the home page when we haven't queried yet
