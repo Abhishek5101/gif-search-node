@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Abhishek5101/gif-search-node/issues"
   },
-  "homepage": "https://github.com/Abhishek5101/gif-search-node#readme"
+  "homepage": "https://github.com/Abhishek5101/gif-search-node#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
